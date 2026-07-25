@@ -4,7 +4,7 @@ langchain
 langgraph
 langchain-community
 langchain-openai
-langchain-qdrant
+langchain-chroma
 sentence-transformers
 pypdf
 python-docx
