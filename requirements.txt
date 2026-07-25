@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-community
+langchain-openai
+langchain-qdrant
+sentence-transformers
+pypdf
+python-docx
+pandas
+openpyxl
+beautifulsoup4
+requests
+streamlit
+python-dotenv
