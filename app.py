@@ -6,7 +6,7 @@ from ingestion import list_documents, delete_document
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="EnterpriseRAG · Hybrid RAG Assistant",
+    page_title="Advanced RAG Assistant",
     page_icon="📚",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -153,8 +153,8 @@ if "last_result" not in st.session_state:
 # ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-    <div class="hero-eyebrow">Enterprise Hybrid RAG</div>
-    <h1>Enterprise<span>RAG</span></h1>
+    <div class="hero-eyebrow">Advanced RAG Assistant</div>
+    <h1>IntelliDocs<span>AI</span></h1>
     <p class="hero-sub">
         A persistent knowledge base you build once - then ask as many
         questions as you like without re-embedding a thing.
@@ -264,6 +264,6 @@ with tab_chat:
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="notice">
-    EnterpriseRAG · Persistent Hybrid Vector + BM25 Retrieval · Powered by Groq & ChromaDB
+    Advanced RAG · Persistent Hybrid Vector + BM25 Retrieval · Powered by Groq & ChromaDB
 </div>
 """, unsafe_allow_html=True)
