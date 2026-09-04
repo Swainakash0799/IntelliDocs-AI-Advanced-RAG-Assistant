@@ -1,4 +1,4 @@
-# EnterpriseRAG
+# Advanced RAG Assistant
 
 A hybrid (vector + BM25) RAG assistant with a **persistent knowledge base** —
 documents are embedded once, reused for every future question.
