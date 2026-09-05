@@ -36,12 +36,12 @@ IntelliDocs AI lets users upload documents, build a persistent knowledge base, a
           │                     │
     Duplicate Check             ▼
           │              Hybrid Retrieval
-          ▼               ┌─────┴─────┐
+          ▼                ┌─────┴─────┐
    Document Loading        │           │
           │             Vector        BM25
-          ▼               │           │
+          ▼                │           │
      Chunking              └─────┬─────┘
-          │                       ▼
+          │                      ▼
           ▼               Cross-Encoder
       Embeddings             Reranking
           │                       │
@@ -186,7 +186,7 @@ chroma_db/manifest.json
 | Reranker            | Cross-Encoder                      |
 | Reranker Model      | `ms-marco-MiniLM-L-6-v2`           |
 | Document Processing | PyPDF, Docx2txt, Pandas            |
-| Package Manager     | uv / pip                           |
+| Package Manager     | uv                            |
 
 ---
 
